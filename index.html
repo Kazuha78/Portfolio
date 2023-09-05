@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>`</title>
+        <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        
+    </head>
+    <body>
+        
+       <div id="header">
+       	<div class="container">
+       		<nav>
+       			<img src="logo.png">
+       			<ul id="sidemenu">
+       				<li><a href="#">Home</a></li>
+       				<li><a href="#about">About</a></li>
+       				<li><a href="#services"> services</a></li>
+       				<li><a href="#portfolio">Portfolio</a></li>
+       				<li><a href="#contact">Contact</a></li>
+       <i class="fas fa-times" onclick="closememu()"></i>
+       			</ul>
+       			<i class="fas fa-bars" onclick="openmenu()"></i>
+       			
+       		</nav>
+       		
+       		<div class="header-text">
+       		    <p>UI/UX Designer</p>
+       		    <h1> Hi, I'm <span>Kevin</span><br>Jen From Australia</h1>
+       		</div>
+       	</div>
+       </div> 
+       
+       <!-----about------>
+       
+       <div id="about">
+           <div class="container">
+               <div class="row">
+                   <div class="about-col1">
+                       <img src="user.png">
+                    </div>
+                       
+                       <div class="about-col2">
+                           <h1 class="sub"> About Me</h1>
+                           <p>
+                           A new web developer is someone who has recently entered the field of web development and is still in the early stages of building their skills and experience. They may have completed a coding bootcamp or received a degree in web development, but they are still gaining practical experience by working on real-life projects and collaborating with other developers. 
+                           </p>
+                   <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                       <p class="tab-links" onclick="opentab('experience')"> Experience </p>
+                       <p class="tab-links" onclick="opentab('education')"> Education </p>
+                   </div>
+                   
+                   <div class="tab-contents active-tab" id="skills">
+                       <ul>
+                           <li> <span> UI/UX </span><br> Designing Web/App interfaces </li>
+                           <li> <span> Web development </span><br>  Web/App Development  </li>
+                           <li> <span> App development </span><br> Building Android/Ios Apps </li>
+                       </ul>
+                   </div>
+                   
+                   <div class="tab-contents" id="experience">
+                       <ul>
+                           <li> <span> 2021 - Current </span><br> UI/UX Design Training at ET Institute  </li>
+                           <li> <span> 2019 - 2021 </span><br>  Team Lead at StarApp LLC  </li>
+                           <li> <span> 2017 - 2019 </span><br> UO/UX Design Executtive at Coin Digital Ltd  </li>
+                       </ul>
+                   </div>
+                   
+                   <div class="tab-contents" id="education">
+                       <ul>
+                           <li> <span> 2016 </span><br> UI/UX Design Trainee Ar ET Institute </li>
+                           <li> <span> 2016 </span><br>  MBA frpm MIT BAngalore </li>
+                           <li> <span> 2016 </span><br> BBA from ISM BAngalore </li>
+                       </ul>
+                   </div>
+                   <div>
+               </div>
+           </div>
+       </div>
+       
+       <!--------services-------->
+       
+    <div id="services">
+       <div class="container">
+           <h1 class="sub-title"> My Services</h1>
+           <div class="services-list">
+               <div>
+                   <i class="fa-solid fa-code"></i>
+                   <h2> Web Design </h2>
+                   <p> 1. Custom Web Design: A web design agency<br> can create a unique and customized <br>website for your business that reflects your brand<br> identity and meets your specific needs.<br><br>
+                   
+                    3. E-commerce Website Design: If you <br>have anonline store, a web design agency can create <br>an e-commerce website that is easy to navigate,<br>visually appealing, and optimized for conversions. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                 <div>
+                     <i class="fas fa-crop-alt"></i>
+                   <h2> Frontend developer </h2>
+                   <p>A Front-End Developer is responsible for<br> developing new user-facing features, determining the<br> structure and design of web pages, building reusable codes,<br> optimizing page loading times, and using a variety of<br> markup languages to create the web pages. </p>
+                    <a href="#">Learn More</a>
+                </div>
+        </div>
+      </div>
+     </div>
+  <!-------portfolio---------->
+     <div id="portfolio">
+         <div class="container">
+             <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+              <div class="work">
+                   <img src="work-1.png">
+                   <div class="layer">
+                       <h3> Social Media app</h3>
+                       <p> This App Connects you to the talented people around the world.
+                       Download it from play store</p>
+                       <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                   </div>
+             </div>
+             <div class="work">
+                   <img src="work-2.png">
+                    <div class="layer">
+                       <h3> Music App </h3>
+                       <p> This App Connects you to the talented people around the world.
+                       Download it from play store</p>
+                       <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                   </div>
+             </div>
+             <div class="work">
+                   <img src="work-3.png">
+                    <div class="layer">
+                       <h3> Online Shopping App</h3>
+                       <p> This App Connects you to the talented people around the world.
+                       Download it from play store</p>
+                       <a href="#"> <i class="fas fa-external-link-alt"></i></a>
+                   </div>
+             </div>
+             
+         </div>
+         <a href="#" class="btn"> See More</a>
+      </div>
+ </div>
+ <!-----------contact----------->
+<div id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact</h1>
+            <p> <i class="fas fa-paper-plane"></i>contact@example.com</p>
+            <p> <i class="fas fa-phone-square-alt"></i>0124356783</p>
+            <div class="social-icons">
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+<a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+            </div>
+            <a href="cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your NAme" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright © Sarhak,Made with<i class="fas fa-heart"></i>by Sarthak Rai</p>
+        
+    </div>
+ </div>
+ 
+     
+       
+        <script>
+            
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+    for (var tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+            
+        </script>
+        <script>
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+        sidemenu.style.right = "0";
+        }
+                function closememu(){
+        sidemenu.style.right = "-200px";
+        }
+            
+        </script>
+        
+        
+    </body>
+</html>
